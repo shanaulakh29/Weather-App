@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+}
+body{
+background-color:black;
+/* border:3px solid green; */
+ height:100%;
+
+
+
+
+}
+main{
+    background-image:linear-gradient(135deg,lightgreen,lightblue,blue);
+    border:3px solid blue;
+    width:100%;
+    min-width: 550px;
+    position:relative;
+    /* margin-top:100px; */
+}
+.searchboxcontainer{
+    background-image:linear-gradient(135deg,lightgreen,lightblue,blue);
+    height:100vh;
+    display:flex;
+    justify-content: center;
+
+    align-items:center;
+    /* border:1px solid red; */
+    border-radius: 20%;
+   
+}
+.searchbox{
+
+    /* border:1px solid green; */
+  
+ text-align:center;
+   width:50%;
+  
+
+    
+} 
+.textfield{
+
+    min-width:70%;
+    width: 40%;
+    padding-top:10px;
+    padding-bottom:7px;
+    text-align:center;
+    
+    border-radius: 10px;
+    border:1px solid white;
+}
+.button1{
+  position:relative;
+  left:15px;
+
+    width:40px;
+    height:35px;
+    background-color:white;
+    border-radius: 50%;
+    border:1px solid white;
+
+}
+.searchlogo{
+    width:20px;
+    height:18px;
+
+}
+.imagecontainer{
+    margin-top:20px;
+    text-align:center;
+}
+.mainimg{
+    width:30%;
+    
+}
+.tempdisplay{
+    text-align:center;
+    color:white;
+    font-size:50px;
+}
+.citydisplay{
+    margin-top:25px;
+    text-align:center;
+    color:white;
+    font-size:50px;
+}
+.gridcontainer1{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr;
+    justify-items:center;
+    width:100%;
+     /* border:1px solid red;  */
+     margin-bottom:60px;
+
+
+}
+.extradetail1{
+  grid-area: 1/1/2/2;
+    width:100%;
+    text-align:center;
+    
+    /* border:1px solid black; */
+    /* height:60px; */
+}
+.detail1semicont{
+    display:inline-block;
+    color:white;
+    font-size:40px;
+    width:100px;
+}
+.whatisit1{
+    font-size:20px;
+    }
+.extradetail2{
+    grid-area: 1/2/2/3;
+    width:100%;
+    justify-self:center;
+    text-align:center;
+     
+}
+.detail2semicont{
+   
+    display:inline-block;
+    color:white;
+    width:100px;
+    width:90px;  
+}
+.windimg, .humidityimg,.mainimg{
+    display:none;
+}
+.speed{
+    font-size: 40px;
+}
+.speed,.wind,.humidity,.humidityperc{
+    list-style-type: none;
+}

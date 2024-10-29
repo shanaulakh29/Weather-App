@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="main">
+        <div class="searchboxcontainer">
+        <div class="searchbox">
+            <input type="text" id="textfield" class="textfield" name="location" placeholder="Enter the city/address">
+            <button class="button1" id="button1">
+                <img src="images.png" alt="searchlogo" id="searchlogo" class="searchlogo">
+            </button>
+        </div>
+        </div>
+
+        <div class="imagecontainer" id="imagecontainer">
+            <img src="sun.png" alt="image" class="mainimg" id="mainimg">
+        </div>
+        <div class="tempdisplay" id="tempdisplay">
+
+        </div>
+        <div class="citydisplay" id="citydisplay">
+
+        </div>
+        <div class="gridcontainer1">
+            <div class="extradetail1" id="extradetail1">
+                <img src="humidity.png" class="humidityimg" id="humidityimg">
+                <div class="detail1semicont" id="detail1semicont">
+                    <ul class="list1">
+                        <li class="humidityperc" id="humidityperc"></li>
+                        <li class="humidity" id="humidity"></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="extradetail2" id="extradetail2">
+                <img src="wind.png" class="windimg" id="windimg">
+                <div class="detail2semicont" id="detail2semicont">
+                    <ul class="list2">
+                        <li class="speed" id="speed"></li>
+                        <li class="wind" id="wind"></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
