@@ -1,4 +1,4 @@
-let api_key = "eb6b7eb0e66008919d694f449dbefb8d";
+let api_key = ""
 
 let body=document.body;
 let searchboxcontainer=document.querySelector(".searchboxcontainer");
